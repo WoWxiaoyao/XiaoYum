@@ -1,0 +1,12 @@
+name: XiaoYum
+main: zbv5.cn.XiaoYum.Main
+version: 1.0.1
+api: 1.0.0
+author: 逍遥
+permissions:
+  XiaoYum.command:
+    description: 列出指令所需权限
+    default: true
+  XiaoYum.admin:
+    description: 使用指令所需权限
+    default: op
