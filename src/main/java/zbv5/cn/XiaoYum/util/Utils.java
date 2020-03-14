@@ -29,7 +29,7 @@ public class Utils
         long start = System.currentTimeMillis();
         if(isIgnore(PluginName))
         {
-            PrintUtil.PrintCommandSender(sender,"{prefix}&c插件&b"+PluginName+"&b禁止执行任何操作.");
+            PrintUtil.PrintCommandSender(sender,"{prefix}&c插件&b"+PluginName+"&c禁止执行任何操作.");
             return;
         }
         if((Main.getInstance().getServer().getPluginManager().getPlugin(PluginName) == null) || (Main.getInstance().getServer().getPluginManager().getPlugin(PluginName).isDisabled()))
@@ -122,7 +122,7 @@ public class Utils
         long start = System.currentTimeMillis();
         if(isIgnore(PluginName))
         {
-            PrintUtil.PrintCommandSender(sender,"{prefix}&c插件&b"+PluginName+"&b禁止执行任何操作.");
+            PrintUtil.PrintCommandSender(sender,"{prefix}&c插件&b"+PluginName+"&c禁止执行任何操作.");
             return;
         }
         Plugin plugin = getPlugin(PluginName);
@@ -216,7 +216,7 @@ public class Utils
         long start = System.currentTimeMillis();
         if(isIgnore(PluginName))
         {
-            PrintUtil.PrintCommandSender(sender,"{prefix}&c插件&b"+PluginName+"&b禁止执行任何操作.");
+            PrintUtil.PrintCommandSender(sender,"{prefix}&c插件&b"+PluginName+"&c禁止执行任何操作.");
             return;
         }
         Plugin plugin = getPlugin(PluginName);
@@ -240,7 +240,7 @@ public class Utils
         }
         if(isIgnore(PluginName))
         {
-            PrintUtil.PrintCommandSender(sender,"{prefix}&c插件&b"+PluginName+"&b禁止执行任何操作.");
+            PrintUtil.PrintCommandSender(sender,"{prefix}&c插件&b"+PluginName+"&c禁止执行任何操作.");
             return;
         }
         Plugin plugin = getPlugin(PluginName);
